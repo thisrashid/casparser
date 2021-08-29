@@ -1,0 +1,26 @@
+{
+  "name": "casparser",
+  "version": "1.0.0",
+  "description": "Parser for CAMS/Karvy CAS PDF",
+  "main": "index.js",
+  "bin": "./bin/cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Considated Account Statment",
+    "CAS Parser",
+    "CAS PDF"
+  ],
+  "homepage": "https://github.com/thisrashid/casparser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thisrashid/casparser.git"
+  },
+  "dependencies": {
+    "pdf2json": "^1.2.3"
+  },
+  "author": "Rashid Azar",
+  "license": "MIT"
+}
